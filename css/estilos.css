@@ -1,0 +1,71 @@
+
+body{
+
+	background-color:#f2f2f2!important;
+
+	font-family:'Segoe UI light'!important;
+}
+
+header{
+	margin-top: 30px;
+}
+
+header .nav{
+	min-height: 80px;/*para que el menu tenga alto minimo de 80 px*/
+	overflow: hidden;
+	background-color: white;
+}
+
+header .logo h2,
+header .logo span,
+header .logo p{
+	display: inline-block;/*uno delante de otro*/
+	font-size: 16px;
+	margin:0;
+}
+
+header .logo h2{
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+header .logo i{
+	color: #33ccff;
+}
+
+/* menu*/ 
+header .menu{
+	padding: 0;
+}
+header .menu a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 30px;
+}
+
+header .menu a div span{
+	font-weight:bold;
+}
+
+header .menu .c-1{
+	background-color:#ff5050;
+}
+header .menu .c-1:hover{
+	background-color:#ff6666 ;
+}
+
+header .menu .c-2{
+	background-color:#00aaff;
+}
+header .menu .c-2:hover{
+	background-color:#33bbff;
+}
+
+header .menu .c-3{
+	background-color:  #ff8c1a;
+}
+header .menu .c-3:hover{
+	background-color:  #ff9933;
+}
