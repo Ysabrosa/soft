@@ -103,8 +103,13 @@ body{
 }
 
 @font-face {
-    font-family:Akashi;
-    src: url(Akashi.ttf);
+    font-family: ('Akashi');
+    src: local('Akashi'),
+       url('../fonts/Akashi.eot') format('embedded-opentype'),
+       url('../fonts/Akashi.otf') format('OpenType'),
+       url('../fonts/Akashi.svg') format('svg'), 
+       url('../fonts/Akashi.ttf') format('truetype'),
+       url('../fonts/Akashi.woff') format('woff');
 }
 
 
