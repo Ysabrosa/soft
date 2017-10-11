@@ -102,17 +102,92 @@ body{
    
 }
 
+@font-face {
+    font-family:Akashi;
+    src: url(Akashi.ttf);
+}
+
+
+.titulo{
+   
+    
+    
+    color: black;
+
+}
+
+.carousel-caption{
+    top: -10px;
+    font-family:Akashi!important;
+    text-transform: uppercase; 
+}
+
+.carousel-caption h3{
+    font-size:40px !important;
+    color: white;
+    
+}
+.carousel-caption h3 span{
+    color: #F6B501;
+}
+
+
+@media only screen and (min-width: 480px){
+  .carousel-caption{
+    top: -10px;
+   }
+   .carousel-caption h3{
+    font-size:50px !important;  
+}
+   .carousel-caption p{
+    font-size:16px !important; 
+}
+
+}
+@media only screen and (min-width: 768px){
+ .carousel-caption{
+    top: 30px;
+   }
+
+   .carousel-caption h3{
+    font-size:85px !important; 
+}
+   .carousel-caption p{
+    font-size:20px !important; 
+}
+
+}
+
+h3 span{
+    
+}
+
 a{
     text-decoration: none!important;
 }
 
-.fondo img{
+.carousel-item{
+    height: 50vh;
     width: 100%;
-    background-position:center;
-    background-size: cover;
+  
+}
+
+@media only screen and (min-width: 480px){
+   .carousel-item{
+    height: 60vh;
+}
+@media only screen and (min-width: 768px){
+   .carousel-item{
     height: 100vh;
-    position: relative!important;
-    
+}
+}
+
+.navbar-nav a{
+    color: black!important;
+}
+
+.azul{
+    background-color: white;
 }
 
 .intermedio{
