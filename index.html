@@ -26,124 +26,149 @@
     <!-- para alinear verticalmente por cada columna usamos align-self-center	 -->
     <!-- para alinear horizontalmente ponemos en el row justify-content-center, around divide el espacio y between pone el espacio enmedio, tambien se usa offset para centrar mas especificamente-->
     <!-- con la clase flex-first que se pone en la columna, cambiamos el orden de las columnas-->
-    
- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  		<ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  		</ol>
+ <section class="azul"> 
 
-	<div class="carousel-inner" role="listbox">
-	   	<div class="carousel-item active">
-	      <img class="d-block img-fluid" src="img/fondito.png" alt="First slide">
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img class="d-block w-100 " src="img/fondito.png" alt="First slide" class="img-fluid">
 	        <div class="carousel-caption ">
 		    <h3 class="titulo">CGRAPHICs <span>sTUDIO</span></h3>
 		    <p>Diseño web, fotografia, realidad aumentada</p>
-		  </div>
-		</div>
 
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/fondo3.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-		    <h3>Desarrollo web</h3>
-		   
-  		</div>
+		    	<a href=""><i class="fa fa-twitter hidden-md-down" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook hidden-md-down" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin hidden-md-down" aria-hidden="true"></i></a>
+		  </div>
+    </div>
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
     </div>
   </div>
+</div>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Anterior</span>
-  </a>
+<section class="comienza container-fluid pt-5">
+	<h2 class="text-center">Comienza a crecer</h2>
+</section>
 
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Siguiente</span>
-  </a>
-</div><!-- slide-->
-		<section class="azul">
-		<nav class="navbar navbar-inverse  navbar-toggleable-md navbar sticky-top " id="menu">
-	        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	        </button>
-	            <a class="navbar-brand" href="#">
-	                <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top img-fluid" alt=" logotipo de la pagina">
-	          
-	             </a>
-             <div class="collapse navbar-collapse" id="navbarTogglerDemo01"><!-- estos 3 elementos iguales-->
-             <div class="navbar-nav mr-auto ml-auto text-center">
-                <a class="nav-item nav-link active px-3" href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
-                <a class="nav-item nav-link px-3" href="#nosotros"><i class="fa fa-users" aria-hidden="true"></i>Nosotros</a>
-                <a class="nav-item nav-link px-3" href="#servicios"><i class="fa fa-cogs" aria-hidden="true"></i>Servicios</a>
-                <a class="nav-item nav-link px-3" href="#contacto"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contacto</a>
-            </div>
-            </div>
-            </nav>
-            </section>
+<div class="container-fluid grafico">
+	<div class="row justify-content-between text-center">
 
-   <section class="container frase ">
-   		<h3 class="text-center">Orientados al desarrollo web y soluciones  graficas necesarias para desempeñar
-   		diversos proyectos con tal de brindar un servicio completo a nuestro	s clientes</h3>
-   		<div class="row justify-content-between text-center">
-   			<div class="col-6">	
-	   			<img src="img/recurso3.png" class="img-fluid">
-	   		</div>
-	   		<div class="col-6">		
-	   			<img src="img/recurso4.png" class="img-fluid">
-	   		</div>	
-   		</div>
-   </section>
+		<div class="col-sm-6 hidden-xs-down"><img src="img/recurso3.png" class="img-fluid"></div>
+		<div class="col-sm-6"><img src="img/recurso4.png" class="img-fluid"></div>
 
-   <section class="container servicios">
+	</div>
+</div>	
+</section> 
+
+<section class="blanco">
+
+<section class="orientados container pt-5 pb-5">
+	<h3 class="text-center">Orientados al desarrollo web y soluciones gráficas necesarias
+		para desempeñar diversos proyectos con tal de brindar
+		un servicio completo a nuestros clientes.</h3>
+</section>
+<div class="container-fluid grafico">
+	<div class="row justify-content-between text-center">
+		<div class="col-sm-6 hidden-xs-down"><img src="img/recurso3.png" class="img-fluid"></div>
+		<div class="col-sm-6"><img src="img/recurso4.png" class="img-fluid"></div>
+	</div>
+</div>	
+
+
+
+	
+		  <nav class="navbar navbar-toggleable-md navbar-light sticky-top">
+          <button class="navbar-toggler navbar-toggler-right text-center" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand nombre" href="#">
+                    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top img-fluid" alt="">
+                 </a>
+          <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link menu" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#yo">Yo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#trabajos">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#contactame">Contactame</a>
+              </li>
+
+              <li class="nav-item  right">
+                <a class="nav-link hidden-md-down redes" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+               <li class="nav-item ">
+                <a class="nav-link hidden-md-down redes" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link hidden-md-down redes" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+            
+
+          </div>
+         
+        </nav>
+
+
+   <section class="container servicios mt-5">
    		<div class="row mt-5">
-   			<div class="col-md-6">
+   			<div class="col-md-6 mt-4 mb-4">
    				<img src="img/recurso10.png" class="img-fluid">
-   				<h4>Diseño gráfico / Identidad cororativa</h4>
+   				<h4 class="mt-4 mb-4">Diseño gráfico / Identidad cororativa</h4>
    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
    				consequat.</p>
    			</div>
-   			<div class="col-md-6">
+   			<div class="col-md-6  mt-4 mb-4">
    				<img src="img/recurso11.png" class="img-fluid">
-   				<h4>Diseño web / Aplicaciones web</h4>
+   				<h4 class="mt-4 mb-4">Diseño web / Aplicaciones web</h4>
    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
    				consequat.</p>
    			</div>
    		</div>
-   			<div class="row mt-5">
-	   			<div class="col-md-6">
+   			<div class="row mt-3">
+	   			<div class="col-md-6  mt-4 mb-4">
 	   				<img src="img/recurso12.png" class="img-fluid">
-	   				<h4>Realidad aumentada</h4>	
+	   				<h4 class="mt-4 mb-4">Realidad aumentada</h4>	
 	   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	   				consequat.</p>
 	   			</div>
-	   			<div class="col-md-6">
+	   			<div class="col-md-6  mt-4 mb-4">
 	   				<img src="img/recurso13.png" class="img-fluid">
-	   				<h4>Redes sociales</h4>
+	   				<h4 class="mt-4 mb-4">Redes sociales</h4>
 	   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	   				consequat.</p>
 	   			</div>
    			</div>
-   				<div class="row mt-5">
-		   			<div class="col-md-6">
+   				<div class="row mt-3">
+		   			<div class="col-md-6  mt-4 mb-4">
 		   				<img src="img/recurso14.png" class="img-fluid">
-		   				<h4>Diseño de aplicaciones</h4>
+		   				<h4 class="mt-4 mb-4">Diseño de aplicaciones</h4>
 		   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		   				consequat.</p>
 		   			</div>
-		   			<div class="col-md-6">
+		   			<div class="col-md-6  mt-4 mb-4">
 		   				<img src="img/recurso15.png" class="img-fluid">
-		   				<h4>Fotografia corporativa</h4>	
+		   				<h4 class="mt-4 mb-4">Fotografia corporativa</h4>	
 		   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -151,6 +176,7 @@
 		   			</div>
    			</div>
    			
+   </section>
    </section>
    <div class="container-fluid">
 	   <div class="row justify-content-between text-center">
@@ -163,8 +189,8 @@
 	   	</div>
 	</div>
 
-	<section class="portafolio container">
-		<h3 class="titulo text-center">Portafolio</h3>
+	<section class="portafolio container-fluid pb-5">
+		<h2 class="titulo text-center pt-5 mb-5">Portafolio</h2>
 		<div class="row">
 			<div class="col-md-4">
 				<img src="img/recurso10.png" class="img-fluid">
@@ -189,8 +215,32 @@
 		</div>
 	</section>
 
+	 <div class="container-fluid">
+	   <div class="row justify-content-between text-center">
+		   			<div class="col-6">	
+			   			<img src="img/recurso3.png" class="img-fluid">
+			   		</div>
+			   		<div class="col-6">		
+			   			<img src="img/recurso4.png" class="img-fluid">
+			   		</div>	
+	   	</div>
+	</div>
+
 	<section class="banner container-fluid">
-		
+		<div class="hijo">
+			<h4><a href="">Contactanos</a></h4>
+		</div>	
+	</section>
+
+	<section class="footer container-fluid">
+		<div class="row pt-5 pb-3">
+			<div class="col-6"><p class="text-center">© 2017 CGraphics Studio Allrighs reserved<p></div>
+			<div class="col-5 text-right mr-3">
+				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</div>
+		</div>
 	</section>
 
 
